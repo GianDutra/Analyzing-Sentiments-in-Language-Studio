@@ -34,7 +34,7 @@ Using Language Studio, I created a review of a fictional hotel in Tokyo, as if I
 
 
 ## Final Considerations
-Example
+I was amazed when I discovered that sentiment analysis existed and was so easily accessible within Language Studio. Without a doubt, it's a powerful tool that could be utilized, for example, by a hotel chain to gather insights from customer feedback. With a deeper analysis of the data, they could then improve their services.
 
 ## 👨‍💼 Autor
 
