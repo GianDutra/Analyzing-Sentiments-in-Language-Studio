@@ -1,0 +1,180 @@
+{
+    "documents": [
+        {
+            "id": "id__2714",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.02,
+                "neutral": 0.04,
+                "negative": 0.94
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.07,
+                        "neutral": 0.1,
+                        "negative": 0.83
+                    },
+                    "offset": 0,
+                    "length": 38,
+                    "text": "Horrible Experience at Tokyo Paradise\n",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 9,
+                            "length": 10,
+                            "text": "Experience",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 0,
+                            "length": 8,
+                            "text": "Horrible",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.98,
+                        "negative": 0.01
+                    },
+                    "offset": 38,
+                    "length": 29,
+                    "text": "Tokyo Paradise, Tokyo, Japan\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.96,
+                        "negative": 0.01
+                    },
+                    "offset": 67,
+                    "length": 11,
+                    "text": "04/22/2023\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.01,
+                        "negative": 0.97
+                    },
+                    "offset": 78,
+                    "length": 39,
+                    "text": "Terrible experience at Tokyo Paradise! ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 90,
+                            "length": 10,
+                            "text": "experience",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 81,
+                            "length": 8,
+                            "text": "Terrible",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 117,
+                    "length": 46,
+                    "text": "The reception staff was rude and unwelcoming. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.12,
+                        "negative": 0.87
+                    },
+                    "offset": 163,
+                    "length": 83,
+                    "text": "When I requested an extra pillow, I was informed of unexpected additional charges. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 246,
+                    "length": 62,
+                    "text": "The Wi-Fi connection was so slow it was practically unusable. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.01,
+                        "negative": 0.99
+                    },
+                    "offset": 308,
+                    "length": 28,
+                    "text": "Not worth the price at all.\n",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
